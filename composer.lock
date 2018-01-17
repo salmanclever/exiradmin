@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f8435f4ee9d3b158881af272879beb40",
+    "content-hash": "6cb0142383a44a8e4b6223258deaf409",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -2490,6 +2490,68 @@
     ],
     "packages-dev": [
         {
+            "name": "backpack/generators",
+            "version": "1.1.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Laravel-Backpack/Generators.git",
+                "reference": "e8ca837fcfa8219c543b405f6c810b838130aa73"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Laravel-Backpack/Generators/zipball/e8ca837fcfa8219c543b405f6c810b838130aa73",
+                "reference": "e8ca837fcfa8219c543b405f6c810b838130aa73",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": ">=5.1",
+                "illuminate/support": ">=5.1",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*",
+                "scrutinizer/ocular": "~1.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Backpack\\Generators\\GeneratorsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Backpack\\Generators\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cristian Tone",
+                    "email": "cristitone@outlook.com",
+                    "homepage": "http://updivision.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Generate files for laravel projects",
+            "homepage": "https://github.com/laravel-backpack/generators",
+            "keywords": [
+                "config",
+                "generators",
+                "model",
+                "request",
+                "view"
+            ],
+            "time": "2017-08-30T18:32:34+00:00"
+        },
+        {
             "name": "doctrine/instantiator",
             "version": "1.0.5",
             "source": {
@@ -2701,6 +2763,57 @@
                 "test"
             ],
             "time": "2016-01-20T08:20:44+00:00"
+        },
+        {
+            "name": "laracasts/generators",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laracasts/Laravel-5-Generators-Extended.git",
+                "reference": "8d99c3f9891abce5cc84d5d1d4a7c26cf514ab6e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laracasts/Laravel-5-Generators-Extended/zipball/8d99c3f9891abce5cc84d5d1d4a7c26cf514ab6e",
+                "reference": "8d99c3f9891abce5cc84d5d1d4a7c26cf514ab6e",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpspec/phpspec": "~2.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Laracasts\\Generators\\GeneratorsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laracasts\\Generators\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeffrey Way",
+                    "email": "jeffrey@laracasts.com"
+                }
+            ],
+            "description": "Extend Laravel 5's generators.",
+            "keywords": [
+                "generators",
+                "laravel"
+            ],
+            "time": "2017-11-15T07:23:53+00:00"
         },
         {
             "name": "mockery/mockery",
@@ -4216,7 +4329,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "laracasts/generators": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
