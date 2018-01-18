@@ -15,9 +15,9 @@
           <li><a href="{{ backpack_url('dashboard') }}"><i class="fa fa-dashboard"></i> <span>{{ trans('backpack::base.dashboard') }}</span></a></li>
 
 
-              <li><a href="{{  backpack_url('elfinder') }}"><i class="fa fa-files-o"></i> <span>File manager</span></a></li>
+              <li><a href="{{  backpack_url('elfinder') }}"><i class="fa fa-files-o"></i> <span>{{ trans('backpack::base.file_manager') }}</span></a></li>
 
-              <li><a href="{{  backpack_url('language') }}"><i class="fa fa-flag-o"></i> <span>Languages</span></a></li>
+              <li><a href="{{  backpack_url('language') }}"><i class="fa fa-flag-o"></i> <span>{{ trans('backpack::base.language') }}</span></a></li>
               <li><a href="{{ backpack_url( 'language/texts') }}"><i class="fa fa-language"></i> <span>Language Files</span></a></li>
 
 
