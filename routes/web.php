@@ -18,4 +18,7 @@ Route::get('/', function () {
 Route::group(['prefix' => 'admin', 'middleware' => ['admin'], 'namespace' => 'Admin'], function()
 {
    CRUD::resource('employee', 'EmployeeCrudController');
+   CRUD::resource('department', 'DepartmentCrudController');
+    CRUD::resource('group', 'GroupCrudController');
+    CRUD::resource('categorie', 'CategorieCrudController');
 });
