@@ -19,7 +19,7 @@ return [
     'logo_mini' => '<b>E</b>a',
 
     // Developer or company name. Shown in footer.
-    'developer_name' => 'Salman Jabbari',
+    'developer_name' => 'Exir',
 
     // Developer website. Link in footer.
     'developer_link' => 'http://exiradmin.dev',
