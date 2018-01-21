@@ -32,6 +32,7 @@ class EmployeeCrudController extends CrudController
 
         // ------ CRUD FIELDS
         // $this->crud->addField($options, 'update/create/both');
+        // $this->crud->addField($options, 'update/create/both');
         // $this->crud->addFields($array_of_arrays, 'update/create/both');
         // $this->crud->removeField('name', 'update/create/both');
         // $this->crud->removeFields($array_of_names, 'update/create/both');
@@ -89,6 +90,14 @@ class EmployeeCrudController extends CrudController
         );
         
         // $this->crud->addColumns(); // add multiple columns, at the end of the stack
+        $this->crud->addColumns(
+            [   // Checkbox
+                'name' => 'active',
+                'label' => 'Active',
+                'type' => 'checkbox'
+            ]
+
+        ); // add multiple columns, at the end of the stack
          $this->crud->removeColumn('password'); // remove a column from the stack
         // $this->crud->removeColumns(['column_name_1', 'column_name_2']); // remove an array of columns from the stack
          $this->crud->setColumnDetails('employee_id', ['attribute' => 'value']); // adjusts the properties of the passed in column (by name)
@@ -181,5 +190,17 @@ class EmployeeCrudController extends CrudController
         // your additional operations after save here
         // use $this->data['entry'] or $this->crud->entry
         return $redirect_location;
+    }
+
+
+    public function addEmployee($id)
+    {
+        $this->crud->hasAccessOrFail('list');
+
+        $this->data['crud'] = $this->crud;
+        $this->data['title'] = ucfirst($this->crud->entity_name_plural);
+        $this->data['group_id'] = $id;
+        // load the view from /resources/views/vendor/backpack/crud/ if it exists, otherwise load the one in the package
+        return view($this->crud->getAddEmployeeView(), $this->data);
     }
 }
