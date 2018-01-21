@@ -38,7 +38,8 @@ class EmployeeCrudController extends CrudController
         // $this->crud->removeFields($array_of_names, 'update/create/both');
 
         // ------ CRUD COLUMNS
-         $this->crud->addColumn([
+
+        $this->crud->addColumn([
              'name' => 'employee_id', // The db column name
              'label' => "شماره پرسنلی", // Table column heading
              ]
@@ -90,14 +91,7 @@ class EmployeeCrudController extends CrudController
         );
         
         // $this->crud->addColumns(); // add multiple columns, at the end of the stack
-        $this->crud->addColumns(
-            [   // Checkbox
-                'name' => 'active',
-                'label' => 'Active',
-                'type' => 'checkbox'
-            ]
-
-        ); // add multiple columns, at the end of the stack
+        // add multiple columns, at the end of the stack
          $this->crud->removeColumn('password'); // remove a column from the stack
         // $this->crud->removeColumns(['column_name_1', 'column_name_2']); // remove an array of columns from the stack
          $this->crud->setColumnDetails('employee_id', ['attribute' => 'value']); // adjusts the properties of the passed in column (by name)

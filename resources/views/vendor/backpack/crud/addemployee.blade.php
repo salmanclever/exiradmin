@@ -54,7 +54,7 @@
                         </tr>
                         </thead>
                         <tbody>
-                        </tbody>
+                         </tbody>
                         <tfoot>
                         <tr>
                             @if ($crud->details_row)
@@ -335,7 +335,7 @@
                                 $('div.table_row_slider', row.child()).slideDown();
                             })
                             .always(function(data) {
-                                // console.log("-- complete getting table extra details row with AJAX");
+                          tbody > td > .row      // console.log("-- complete getting table extra details row with AJAX");
                             });
                     }
                 } );
@@ -344,8 +344,15 @@
             register_details_row_button_action();
             @endif
 
+            $('#crudTable').click(function () {
+                alert("This is salman");
+            });
 
         });
+
+
+
+
     </script>
 
     <!-- CRUD LIST CONTENT - crud_list_scripts stack -->
