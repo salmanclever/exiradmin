@@ -19,6 +19,8 @@ Route::group(['prefix' => 'admin', 'middleware' => ['admin'], 'namespace' => 'Ad
 {
    CRUD::resource('employee', 'EmployeeCrudController');
    CRUD::resource('department', 'DepartmentCrudController');
-    CRUD::resource('group', 'GroupCrudController');
+    CRUD::resource('group', 'GroupCrudController')->with(function (){
+        Route::get('group/{id}/addemployee', 'EmployeeCrudController@addEmployee');
+    });
     CRUD::resource('categorie', 'CategorieCrudController');
 });
