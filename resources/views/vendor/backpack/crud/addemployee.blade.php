@@ -1,4 +1,6 @@
 @extends('backpack::layout')
+
+
 @section('header')
     <section class="content-header">
         <h1>
@@ -344,9 +346,9 @@
             register_details_row_button_action();
             @endif
 
-            $('#crudTable').click(function () {
-                alert("This is salman");
-            });
+
+
+
 
         });
 
