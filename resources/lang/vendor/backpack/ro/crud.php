@@ -56,6 +56,7 @@ return [
         'delete_confirmation_not_message'             => 'A avut loc o eroare. E posibil ca intrarea să nu fi fost ștearsă.',
         'delete_confirmation_not_deleted_title'       => 'Intrarea nu a fost ștearsă',
         'delete_confirmation_not_deleted_message'     => 'Nu am șters intrarea din baza de date.',
+        'operator_fail'     => 'Nu am șters intrarea din baza de date.',
 
         // DataTables translation
         'emptyTable'     => 'Nu există intrări în baza de date',

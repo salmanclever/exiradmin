@@ -7,6 +7,7 @@ use Backpack\CRUD\app\Http\Controllers\CrudController;
 // VALIDATION: change the requests to match your own file names if you need form validation
 use App\Http\Requests\EmployeeRequest as StoreRequest;
 use App\Http\Requests\EmployeeRequest as UpdateRequest;
+use function PHPSTORM_META\type;
 
 class EmployeeCrudController extends CrudController
 {
@@ -40,11 +41,33 @@ class EmployeeCrudController extends CrudController
         // ------ CRUD COLUMNS
 
         $this->crud->addColumn([
+                'name' => 'id', // The db column name
+                'label' => "انتخاب", // Table column heading
+                'type' => 'checking'
+
+            ]
+        ); // add a single column, at the end of the stack
+
+
+
+        $this->crud->addColumn([
              'name' => 'employee_id', // The db column name
              'label' => "شماره پرسنلی", // Table column heading
+
              ]
             ); // add a single column, at the end of the stack
+
         $this->crud->addColumn([
+                'name' => 'employee_id', // The db column name
+                'label' => "شماره پرسنلی", // Table column heading
+
+            ]
+        ); // add a single column, at the end of the stack
+
+
+
+
+                $this->crud->addColumn([
                 'name' => 'username', // The db column name
                 'label' => "نام کاربری", // Table column heading
             ]
@@ -89,6 +112,9 @@ class EmployeeCrudController extends CrudController
                 'label' => "کد ملی", // Table column heading
             ]
         );
+
+
+
         
         // $this->crud->addColumns(); // add multiple columns, at the end of the stack
         // add multiple columns, at the end of the stack
@@ -96,6 +122,7 @@ class EmployeeCrudController extends CrudController
         // $this->crud->removeColumns(['column_name_1', 'column_name_2']); // remove an array of columns from the stack
          $this->crud->setColumnDetails('employee_id', ['attribute' => 'value']); // adjusts the properties of the passed in column (by name)
         // $this->crud->setColumnsDetails(['column_1', 'column_2'], ['attribute' => 'value']);
+
 
         // ------ CRUD BUTTONS
         // possible positions: 'beginning' and 'end'; defaults to 'beginning' for the 'line' stack, 'end' for the others;

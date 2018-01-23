@@ -6,7 +6,9 @@ use Backpack\CRUD\app\Http\Controllers\CrudController;
 
 // VALIDATION: change the requests to match your own file names if you need form validation
 use App\Http\Requests\GroupRequest as StoreRequest;
-use App\Http\Requests\GroupRequest as UpdateRequest;
+use App\Http\Requests\GroudbpRequest as UpdateRequest;
+use Illuminate\Support\Facades\Input;
+use App\Models\Group as group;
 
 class GroupCrudController extends CrudController
 {
@@ -94,7 +96,7 @@ class GroupCrudController extends CrudController
         // ------ ADVANCED QUERIES
         // $this->crud->addClause('active');
         // $this->crud->addClause('type', 'car');
-        // $this->crud->addClause('where', 'name', '==', 'car');
+        // $this->crud->addClause('wh::successere', 'name', '==', 'car');
         // $this->crud->addClause('whereName', 'car');
         // $this->crud->addClause('whereHas', 'posts', function($query) {
         //     $query->activePosts();
@@ -123,6 +125,27 @@ class GroupCrudController extends CrudController
         // your additional operations after save here
         // use $this->data['entry'] or $this->crud->entry
         return $redirect_location;
+    }
+
+    public function addEmployee(){
+        $groupid = Input::get('groupid');
+        $employeeid = Input::get('employeeid');
+        $group = group::findOrFail($groupid);
+
+        if($group->employees()->where('id',$employeeid)->exists()){
+            \Alert::error('already exist');
+
+            return 'already exist';
+        }
+        $group->employees()->attach($employeeid);
+
+        if(!$group->save()){
+            $res = 'fail';
+        }else{
+            $res = 'success';
+        };
+
+        return $res;
     }
 
 }

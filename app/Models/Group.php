@@ -61,6 +61,6 @@ class Group extends Model
     }
 
     public function employees(){
-        return $this->hasMany('App\Models\Employee');
+        return $this->belongsToMany('App\Models\Employee');
     }
 }

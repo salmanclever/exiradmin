@@ -352,7 +352,30 @@
 
         });
 
+        $('#crudTable tbody').on('click', 'tr', function (e) {
+            var empid = $(this).children().children().attr('empid');
+            var grpid = {{ $group_id }}
+            $.ajax({
+                type:"POST",
+                url:"",
+                success: function(data) {
+                    if(data == 'success'){
+                        console.log('success');
 
+                    }else{
+                        console.log('faile');
+                        new PNotify({
+                            title: "{{ trans('backpack::crud.operator_fail') }}",
+                            text: "{{ trans('backpack::crud..first') }}",
+                            type: "error"
+                        });
+                    }
+                },
+                data:{groupid: grpid , employeeid: empid },
+            });
+
+            console.log({{$group_id}});
+        });
 
 
     </script>
