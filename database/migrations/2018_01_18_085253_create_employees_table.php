@@ -24,6 +24,7 @@ class CreateEmployeesTable extends Migration
             $table->string('job_title')->nullable();
             $table->string('department')->nullable();
             $table->string('tel')->nullable();
+            $table->integer('group_id')->nullable();
             $table->timestamps();
         });
     }

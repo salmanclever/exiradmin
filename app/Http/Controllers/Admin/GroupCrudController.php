@@ -131,18 +131,22 @@ class GroupCrudController extends CrudController
         $groupid = Input::get('groupid');
         $employeeid = Input::get('employeeid');
         $group = group::findOrFail($groupid);
+        $res = [];
 
         if($group->employees()->where('id',$employeeid)->exists()){
-            \Alert::error('already exist');
 
-            return 'already exist';
+            $group->employees()->detach($employeeid);
+            $res['actions'] = 'detach';
+
+        }else{
+            $group->employees()->attach($employeeid);
+            $res['actions'] = 'attach';
         }
-        $group->employees()->attach($employeeid);
 
         if(!$group->save()){
-            $res = 'fail';
+            $res['saving'] = 'fail';
         }else{
-            $res = 'success';
+            $res['saving'] = 'success';
         };
 
         return $res;

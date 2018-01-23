@@ -353,23 +353,31 @@
         });
 
         $('#crudTable tbody').on('click', 'tr', function (e) {
+            console.log(this);
+            var tr = this;
+            var jtr = $(this).find('.empcheckbox');
+
+            console.log(this);
             var empid = $(this).children().children().attr('empid');
             var grpid = {{ $group_id }}
             $.ajax({
                 type:"POST",
                 url:"",
                 success: function(data) {
-                    if(data == 'success'){
+                    
+                    if(data.saving == 'success'){
                         console.log('success');
+                        if(data.actions == 'attach'){
+                            jtr.prop('checked',true);
+                            $(tr).addClass('success');
+                        }else if(data.actions == 'detach'){
+                            jtr.prop('checked',false);
+                            $(tr).removeClass('success');
+                        }
 
-                    }else{
+                        }else{
                         console.log('faile');
-                        new PNotify({
-                            title: "{{ trans('backpack::crud.operator_fail') }}",
-                            text: "{{ trans('backpack::crud..first') }}",
-                            type: "error"
-                        });
-                    }
+                     }
                 },
                 data:{groupid: grpid , employeeid: empid },
             });

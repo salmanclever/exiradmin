@@ -13,9 +13,9 @@ class CreateEmployeeGroupPivotTable extends Migration
     public function up()
     {
         Schema::create('employee_group', function (Blueprint $table) {
-            $table->integer('employee_id')->unsigned()->index();
+            $table->integer('employee_id')->unsigned()->index()->nullable();
             $table->foreign('employee_id')->references('id')->on('employee')->onDelete('cascade');
-            $table->integer('group_id')->unsigned()->index();
+            $table->integer('group_id')->unsigned()->index()->nullable();
             $table->foreign('group_id')->references('id')->on('group')->onDelete('cascade');
             $table->primary(['employee_id', 'group_id']);
         });
@@ -30,4 +30,5 @@ class CreateEmployeeGroupPivotTable extends Migration
     {
         Schema::drop('employee_group');
     }
+
 }
