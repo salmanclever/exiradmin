@@ -86,6 +86,21 @@
 
 @endsection
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @section('after_styles')
     <!-- DATA TABLES -->
     <link href="{{ asset('vendor/adminlte/plugins/datatables/dataTables.bootstrap.css') }}" rel="stylesheet" type="text/css" />
@@ -148,6 +163,33 @@
                     "lengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "{{ trans('backpack::crud.all') }}"]],
                     /* Disable initial sort */
                     "aaSorting": [],
+                    "columnDefs": [
+                        {
+                            // The `data` parameter refers to the data for the cell (defined by the
+                            // `data` option, which defaults to the column being worked with, in
+                            // this case `data: 0`.
+                            "render": function ( data, type, row ,meta) {
+                                var emparr = {{ $grouped_employee->toJson() }};
+                                var empid = $(data).find("input").attr("empid");
+                                var selectedrow = meta.row+1;
+                                var tr = $("#crudTable tbody tr:nth-child("+selectedrow+")");
+                                if((($.inArray(parseInt(empid),emparr))>-1)){
+                                    tr.addClass('success');
+                                }
+
+
+
+                                var checked = (($.inArray(parseInt(empid),emparr))>-1) ? "checked" : "";
+
+
+
+                                return '<input class="empcheckbox" name="checkmark" id="checking" empid="'+empid+'" '+ checked +' type="checkbox">';
+                                //checkboxproccess(empid,input);
+                            },
+                            "targets": 0
+                        },
+                        { "visible": false,  "targets": [ 3 ] }
+                    ],
                     "language": {
                         "emptyTable":     "{{ trans('backpack::crud.emptyTable') }}",
                         "info":           "{{ trans('backpack::crud.info') }}",
@@ -341,49 +383,108 @@
                             });
                     }
                 } );
-            }
+
+                            }
 
             register_details_row_button_action();
             @endif
 
-
-
+            table.rows().every(function (value) {
+                console.log('hrllo');
+            });
 
 
         });
 
+        $('#crudTable tbody').on('draw',function (e) {
+            $('tr').each(function (){
+                console.log(this);
+            })
+        });
+
+
+
         $('#crudTable tbody').on('click', 'tr', function (e) {
-            console.log(this);
+
             var tr = this;
             var jtr = $(this).find('.empcheckbox');
 
-            console.log(this);
+
             var empid = $(this).children().children().attr('empid');
             var grpid = {{ $group_id }}
             $.ajax({
                 type:"POST",
                 url:"",
                 success: function(data) {
-                    
+
                     if(data.saving == 'success'){
                         console.log('success');
                         if(data.actions == 'attach'){
                             jtr.prop('checked',true);
                             $(tr).addClass('success');
+
+                            new PNotify({
+                                title: "{{ trans('backpack::crud.operator_success') }}",
+                                text: "{{ trans('backpack::crud.operator_attach_success') }}",
+                                type: "success"
+                            });
+
                         }else if(data.actions == 'detach'){
                             jtr.prop('checked',false);
                             $(tr).removeClass('success');
+
+                            new PNotify({
+                                title: "{{ trans('backpack::crud.operator_success') }}",
+                                text: "{{ trans('backpack::crud.operator_detach_success') }}",
+                                type: "success"
+                            });
                         }
 
                         }else{
                         console.log('faile');
+
                      }
+                },
+                error:function (jqXHR, textStatus, errorThrown) {
+
+                    new PNotify({
+                        title: "{{ trans('backpack::crud.operator_fail') }}",
+                        text: "{{ trans('backpack::crud.operator_send_fail') }}",
+                        type: "error"
+                    });
+
+                  console.log(textStatus);
                 },
                 data:{groupid: grpid , employeeid: empid },
             });
 
-            console.log({{$group_id}});
+
+
+
         });
+
+
+
+        $('#crudTable tbody').ready(function (e) {
+
+
+        })
+
+
+        function checkboxproccess(empid,input) {
+            var emparr = {{ $grouped_employee->toJson() }};
+
+
+
+            if(emparr.includes(empid)){
+                console.log(input);
+                return $(input).html();
+            }else{
+                console.log(input);
+                return $(input).html();
+
+            }
+        }
 
 
     </script>
