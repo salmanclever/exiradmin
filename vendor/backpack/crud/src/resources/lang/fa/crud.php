@@ -42,6 +42,11 @@ return [
     'guest_user'           => 'کاربر مهمان',
     'operator_fail'           => 'عملیات نا موفق',
     'employee_already_exist'           => 'این کاربر قبلا در گروه وجد دارد',
+    'operator_send_fail'           => 'ارتباط با سرور نا موفق ! مجدد تلاش کنید .',
+    'operator_attach_success'           => 'کاربر به گروه اضافه شد .',
+    'operator_detach_success'           => 'کاربر از گروه حذف شد .',
+    'operator_success'           => 'عملیات موفق',
+
 
 
     // Translatable models
