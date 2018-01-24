@@ -28,6 +28,7 @@ return [
     // Edit form
     'edit'                 => 'ویرایش',
     'add_employee'                 => 'افزودن ',
+    'add_group'                 => 'افزودن ',
     'save'                 => 'ذخیره',
 
     // Revisions
