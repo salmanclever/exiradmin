@@ -7,6 +7,7 @@ use Backpack\CRUD\app\Http\Controllers\CrudController;
 // VALIDATION: change the requests to match your own file names if you need form validation
 use App\Http\Requests\EmployeeRequest as StoreRequest;
 use App\Http\Requests\EmployeeRequest as UpdateRequest;
+use App\Models\Group as Group;
 use function PHPSTORM_META\type;
 
 class EmployeeCrudController extends CrudController
@@ -46,7 +47,7 @@ class EmployeeCrudController extends CrudController
                 'type' => 'checking'
 
             ]
-        ); // add a single column, at the end of the stack
+        )->beforeColumn('employee_id'); // add a single column, at the end of the stack
 
 
 
@@ -216,11 +217,15 @@ class EmployeeCrudController extends CrudController
 
     public function addEmployee($id)
     {
+        $group = Group::findOrFail($id);
+
         $this->crud->hasAccessOrFail('list');
 
         $this->data['crud'] = $this->crud;
         $this->data['title'] = ucfirst($this->crud->entity_name_plural);
         $this->data['group_id'] = $id;
+        $this->data['grouped_employee'] = $group->employees()->pluck('id');
+
         // load the view from /resources/views/vendor/backpack/crud/ if it exists, otherwise load the one in the package
 
         return view($this->crud->getAddEmployeeView(), $this->data);
