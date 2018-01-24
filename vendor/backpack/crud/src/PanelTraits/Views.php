@@ -13,6 +13,7 @@ trait Views
     protected $reorderView = 'crud::reorder';
     protected $listView = 'crud::list';
     protected $addEmployee = 'crud::addemployee';
+    protected $addGroup = 'crud::addgroup';
 
     // -------
     // CREATE
@@ -68,6 +69,11 @@ trait Views
     public function getAddEmployeeView()
     {
         return $this->addEmployee;
+    }
+
+    public function getAddGroupView()
+    {
+        return $this->addGroup;
     }
 
 
