@@ -22,6 +22,9 @@ Route::group(['prefix' => 'admin', 'middleware' => ['admin'], 'namespace' => 'Ad
     CRUD::resource('group', 'GroupCrudController')->with(function (){
         Route::get('group/{id}/addemployee', 'EmployeeCrudController@addEmployee');
         Route::post('group/{id}/addemployee', 'GroupCrudController@addEmployee');
+
     });
-    CRUD::resource('categorie', 'CategorieCrudController');
+    CRUD::resource('categorie', 'CategorieCrudController')->with(function (){
+        Route::get('group/{id}/addgroup', 'GroupCrudController@addGroup');
+    });
 });
