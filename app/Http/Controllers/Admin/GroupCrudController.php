@@ -107,7 +107,13 @@ class GroupCrudController extends CrudController
         // $this->crud->orderBy();
         // $this->crud->groupBy();
         // $this->crud->limit();
-    }
+
+
+
+            }
+
+
+
 
     public function store(StoreRequest $request)
     {
@@ -150,6 +156,22 @@ class GroupCrudController extends CrudController
         };
 
         return $res;
+    }
+
+    public function addGroup($id)
+    {
+        $group = Group::findOrFail($id);
+
+        $this->crud->hasAccessOrFail('list');
+
+        $this->data['crud'] = $this->crud;
+        $this->data['title'] = ucfirst($this->crud->entity_name_plural);
+        $this->data['cat_id'] = $id;
+        $this->data['grouped_employee'] = $group->groups()->pluck('id');
+
+        // load the view from /resources/views/vendor/backpack/crud/ if it exists, otherwise load the one in the package
+
+        return view($this->crud->getAddEmployeeView(), $this->data);
     }
 
 }
