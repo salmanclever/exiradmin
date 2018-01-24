@@ -59,6 +59,7 @@ class CategorieCrudController extends CrudController
         // $this->crud->removeButtonFromStack($name, $stack);
         // $this->crud->removeAllButtons();
         // $this->crud->removeAllButtonsFromStack('line');
+        $this->crud->addButtonFromView('line', 'add_group', 'group', 'beginning'); // add a button whose HTML is in a view placed at resources\views\vendor\backpack\crud\buttons
 
         // ------ CRUD ACCESS
         // $this->crud->allowAccess(['list', 'create', 'update', 'reorder', 'delete']);
