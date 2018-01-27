@@ -57,7 +57,7 @@ class Group extends Model
     */
 
     public function categories(){
-        return $this->belongsToMany('App\Models\Categories');
+        return $this->belongsTo('App\Models\Categorie','categorie_id');
     }
 
     public function employees(){

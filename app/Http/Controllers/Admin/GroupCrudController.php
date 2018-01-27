@@ -9,6 +9,7 @@ use App\Http\Requests\GroupRequest as StoreRequest;
 use App\Http\Requests\GroudbpRequest as UpdateRequest;
 use Illuminate\Support\Facades\Input;
 use App\Models\Group as group;
+use App\Models\Categorie as Categorie;
 
 class GroupCrudController extends CrudController
 {
@@ -40,6 +41,15 @@ class GroupCrudController extends CrudController
                 'label' => "نام", // Table column heading
             ]
         );
+
+
+        $this->crud->addColumn([
+                'name' => 'id', // The db column name
+                'label' => "انتخاب", // Table column heading
+                'type' => 'checking'
+
+            ]
+        )->beforeColumn('name'); // add a single column, at the end of the stack
 
 
         // $this->crud->addFields($array_of_arrays, 'update/create/both');
@@ -160,18 +170,21 @@ class GroupCrudController extends CrudController
 
     public function addGroup($id)
     {
-        $group = Group::findOrFail($id);
+        $categorie = Categorie::findOrFail($id);
 
         $this->crud->hasAccessOrFail('list');
 
         $this->data['crud'] = $this->crud;
         $this->data['title'] = ucfirst($this->crud->entity_name_plural);
         $this->data['cat_id'] = $id;
-        $this->data['grouped_employee'] = $group->groups()->pluck('id');
+        $this->data['categorie_group'] = $categorie->groups()->pluck('id');
 
         // load the view from /resources/views/vendor/backpack/crud/ if it exists, otherwise load the one in the package
 
-        return view($this->crud->getAddEmployeeView(), $this->data);
+        return view($this->crud->getAddGroupView(), $this->data);
     }
+
+
+
 
 }

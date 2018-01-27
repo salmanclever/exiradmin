@@ -33,6 +33,7 @@ return [
     'unauthorized'           => 'غیر مجاز.',
     'dashboard'              => 'پنل کاربری ‍',
     'department'              => 'دپارتمان ها ‍',
+    'poll'              => 'نظر سنجی ‍',
     'group'              => 'گروه ها ‍',
     'categorie'              => 'دسته بندی ها ‍',
     'employee'              => 'مدیریت نیروها ‍',
