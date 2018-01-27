@@ -19,7 +19,7 @@
               <li><a href="{{ backpack_url('department') }}"><i class="fa  fa-cube"></i> <span>{{ trans('backpack::base.department') }}</span></a></li>
               <li><a href="{{ backpack_url('group') }}"><i class="fa   fa-object-group"></i> <span>{{ trans('backpack::base.group') }}</span></a></li>
               <li><a href="{{ backpack_url('categorie') }}"><i class="fa   fa-object-ungroup"></i> <span>{{ trans('backpack::base.categorie') }}</span></a></li>
-              <li><a href="{{ backpack_url('pol') }}"><i class="fa   fa-clone"></i> <span>{{ trans('backpack::base.poll') }}</span></a></li>
+              <li><a href="{{ backpack_url('poll') }}"><i class="fa   fa-clone"></i> <span>{{ trans('backpack::base.poll') }}</span></a></li>
 
 
               <li><a href="{{  backpack_url('elfinder') }}"><i class="fa fa-files-o"></i> <span>{{ trans('backpack::base.file_manager') }}</span></a></li>
