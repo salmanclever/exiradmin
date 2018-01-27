@@ -54,6 +54,6 @@ class Categorie extends Model
     */
 
     public function groups(){
-        return $this->hasOne('App\Models\Group');
+        return $this->hasMany('App\Models\Group');
     }
 }
