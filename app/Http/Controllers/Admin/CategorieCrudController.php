@@ -2,11 +2,13 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Models\Categorie;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 
 // VALIDATION: change the requests to match your own file names if you need form validation
 use App\Http\Requests\CategorieRequest as StoreRequest;
 use App\Http\Requests\CategorieRequest as UpdateRequest;
+use Illuminate\Support\Facades\Input;
 
 class CategorieCrudController extends CrudController
 {
@@ -69,7 +71,10 @@ class CategorieCrudController extends CrudController
         // $this->crud->enableReorder('label_name', MAX_TREE_LEVEL);
         // NOTE: you also need to do allow access to the right users: $this->crud->allowAccess('reorder');
 
-        // ------ CRUD DETAILS ROW
+        // ------ CRUD DE
+
+
+
         // $this->crud->enableDetailsRow();
         // NOTE: you also need to do allow access to the right users: $this->crud->allowAccess('details_row');
         // NOTE: you also need to do overwrite the showDetailsRow($id) method in your EntityCrudController to show whatever you'd like in the details row OR overwrite the views/backpack/crud/details_row.blade.php
@@ -123,4 +128,34 @@ class CategorieCrudController extends CrudController
         // use $this->data['entry'] or $this->crud->entry
         return $redirect_location;
     }
+
+    public function addGroup(){
+        $catid = Input::get('catid');
+        $groupid = Input::get('groupid');
+
+
+        $categorie = Categorie::findOrFail($catid);
+        $res = [];
+
+        if($categorie->groups()->where('categorie_id',$catid)->exists()){
+
+            $categorie->groups()->detach($groupid);
+            $res['actions'] = 'detach';
+
+        }else{
+            $categorie->groups()->associate($groupid);
+            $res['actions'] = 'attach';
+        }
+
+        if(!$categorie->save()){
+            $res['saving'] = 'fail';
+        }else{
+            $res['saving'] = 'success';
+        };
+
+        return $res;
+    }
+
+
+
 }
