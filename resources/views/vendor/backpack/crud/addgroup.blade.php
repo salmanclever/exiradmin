@@ -163,33 +163,31 @@
                     "lengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "{{ trans('backpack::crud.all') }}"]],
                     /* Disable initial sort */
                     "aaSorting": [],
+
                     "columnDefs": [
                         {
                             // The `data` parameter refers to the data for the cell (defined by the
                             // `data` option, which defaults to the column being worked with, in
                             // this case `data: 0`.
                             "render": function ( data, type, row ,meta) {
-                                var emparr = {{ $grouped_employee->toJson() }};
-                                var empid = $(data).find("input").attr("empid");
+                                var grparr = {{ $categorie_group->toJson() }};
+                                var grpid = $(data).find("input").attr("empid");
                                 var selectedrow = meta.row+1;
                                 var tr = $("#crudTable tbody tr:nth-child("+selectedrow+")");
-                                if((($.inArray(parseInt(empid),emparr))>-1)){
+                                if((($.inArray(parseInt(grpid),grparr))>-1)){
                                     tr.addClass('success');
                                 }
+                                var checked = (($.inArray(parseInt(grpid),grparr))>-1) ? "checked" : "";
+                                console.log(checked);
 
-
-
-                                var checked = (($.inArray(parseInt(empid),emparr))>-1) ? "checked" : "";
-
-
-
-                                return '<input class="empcheckbox" name="checkmark" id="checking" empid="'+empid+'" '+ checked +' type="checkbox">';
+                                return '<input class="empcheckbox" name="checkmark" id="checking" empid="'+grpid+'" '+ checked +' type="checkbox">';
                                 //checkboxproccess(empid,input);
                             },
                             "targets": 0
                         },
                         { "visible": false,  "targets": [ 3 ] }
                     ],
+
                     "language": {
                         "emptyTable":     "{{ trans('backpack::crud.emptyTable') }}",
                         "info":           "{{ trans('backpack::crud.info') }}",
@@ -326,7 +324,8 @@
                         });
                     }
                 });
-            }
+
+                           }
 
 
             @if ($crud->details_row)
@@ -389,18 +388,12 @@
             register_details_row_button_action();
             @endif
 
-            table.rows().every(function (value) {
-                console.log('hrllo');
-            });
+
 
 
         });
 
-        $('#crudTable tbody').on('draw',function (e) {
-            $('tr').each(function (){
-                console.log(this);
-            })
-        });
+
 
 
 
@@ -410,13 +403,13 @@
             var jtr = $(this).find('.empcheckbox');
 
 
-            var empid = $(this).children().children().attr('empid');
-            var grpid = {{ $group_id }}
+            var grpid = $(this).children().children().attr('empid');
+            var catid = {{ $cat_id }}
+
             $.ajax({
                 type:"POST",
                 url:"",
                 success: function(data) {
-
                     if(data.saving == 'success'){
                         console.log('success');
                         if(data.actions == 'attach'){
@@ -441,7 +434,7 @@
                         }
 
                         }else{
-                        console.log('faile');
+                        console.log('failesss');
 
                      }
                 },
@@ -455,7 +448,7 @@
 
                   console.log(textStatus);
                 },
-                data:{groupid: grpid , employeeid: empid },
+                data:{catid: catid , groupid: grpid },
             });
 
 
@@ -465,26 +458,10 @@
 
 
 
-        $('#crudTable tbody').ready(function (e) {
-
-
-        })
-
-
-        function checkboxproccess(empid,input) {
-            var emparr = {{ $grouped_employee->toJson() }};
 
 
 
-            if(emparr.includes(empid)){
-                console.log(input);
-                return $(input).html();
-            }else{
-                console.log(input);
-                return $(input).html();
 
-            }
-        }
 
 
     </script>
