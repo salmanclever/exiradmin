@@ -17,6 +17,7 @@ class CreateDepartmentsTable extends Migration
             $table->integer('code')->nullable();
             $table->string('name');
             $table->string('manager')->nullable();
+            $table->text('description')->nullable();
             $table->timestamps();
         });
     }

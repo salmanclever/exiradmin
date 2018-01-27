@@ -16,6 +16,8 @@ class CreateGroupsTable extends Migration
             $table->increments('id');
             $table->string('name')->unique();
             $table->integer('employee_id')->nullable();
+            $table->integer('categorie_id')->nullable();
+            $table->text('description')->nullable();
             $table->timestamps();
         });
     }
