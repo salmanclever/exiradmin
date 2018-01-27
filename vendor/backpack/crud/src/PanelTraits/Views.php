@@ -5,6 +5,7 @@ namespace Backpack\CRUD\PanelTraits;
 trait Views
 {
     protected $createView = 'crud::create';
+    protected $createPollView = 'crud::addpoll';
     protected $editView = 'crud::edit';
     protected $showView = 'crud::show';
     protected $detailsRowView = 'crud::details_row';
@@ -38,6 +39,12 @@ trait Views
     public function getCreateView()
     {
         return $this->createView;
+    }
+
+
+    public function getCreatePollView()
+    {
+        return $this->createPollView;
     }
 
     // -------
