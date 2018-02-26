@@ -2,1274 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b5e7720-5196-4ff4-995d-d0aa6f27bfea" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/observer/MessageObserver.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/adminlte/plugins/jQuery/jquery-3.3.1.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/css/iziModal.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/css/iziModal.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/css/tingle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/css/tingle.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/img/103.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/js/addel.jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/js/addel.jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/js/iziModal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/js/iziModal.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/js/tingle.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/js/tingle.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/.csscomb.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/.npmignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/bower.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/dist/tingle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/dist/tingle.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/dist/tingle.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/dist/tingle.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/demo.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/favicon-16x16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/favicon-32x32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/favicon-96x96.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/github.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/modal.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/normalize.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/tingle/tingle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/tingle/tingle.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/tingle/tingle.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/tingle/tingle.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/CHANGES.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/README.ru.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/highlight.pack.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/agate.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/androidstudio.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/arta.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/ascetic.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/atelier-cave.dark.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/atelier-cave.light.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/atelier-dune.dark.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/atelier-dune.light.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/atelier-estuary.dark.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/atelier-estuary.light.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/atelier-forest.dark.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/atelier-forest.light.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/atelier-heath.dark.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/atelier-heath.light.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/atelier-lakeside.dark.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/atelier-lakeside.light.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/atelier-plateau.dark.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/atelier-plateau.light.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/atelier-savanna.dark.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/atelier-savanna.light.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/atelier-seaside.dark.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/atelier-seaside.light.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/atelier-sulphurpool.dark.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/atelier-sulphurpool.light.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/brown_paper.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/brown_papersq.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/codepen-embed.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/color-brewer.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/dark.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/darkula.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/default.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/docco.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/far.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/foundation.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/github-gist.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/github.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/googlecode.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/grayscale.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/hopscotch.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/hybrid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/idea.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/ir_black.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/kimbie.dark.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/kimbie.light.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/magula.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/mono-blue.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/monokai.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/monokai_sublime.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/obsidian.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/paraiso.dark.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/paraiso.light.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/pojoaque.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/pojoaque.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/railscasts.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/rainbow.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/school_book.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/school_book.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/solarized_dark.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/solarized_light.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/sunburst.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/tomorrow-night-blue.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/tomorrow-night-bright.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/tomorrow-night-eighties.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/tomorrow-night.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/tomorrow.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/vs.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/xcode.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/doc/vendor/highlight/styles/zenburn.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/gulpfile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/src/tingle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/vendor/tingle/src/tingle.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/crud/buttons/addanswer.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/crud/poll/addanswer.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/crud/poll/poll.blade.php" />
       <change beforePath="$PROJECT_DIR$/.env" afterPath="$PROJECT_DIR$/.env" />
-      <change beforePath="$PROJECT_DIR$/.idea/exiradmin.iml" afterPath="$PROJECT_DIR$/.idea/exiradmin.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategorieCrudController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategorieCrudController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/EmployeeCrudController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/EmployeeCrudController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/GroupCrudController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/GroupCrudController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PollCrudController.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/PollRequest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Poll.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
-      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" afterPath="$PROJECT_DIR$/config/filesystems.php" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2017_01_23_115718_create_polls_table.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2017_01_23_124357_create_options_table.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2017_01_25_111721_create_votes_table.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2018_01_25_092402_create_pols_table.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2018_01_27_065056_create_poll_table.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/.jshintrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/Gruntfile.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/bootstrap/css/bootstrap-theme.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/bootstrap/css/bootstrap-theme.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/bootstrap/css/bootstrap-theme.min.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/bootstrap/css/bootstrap.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/bootstrap/css/bootstrap.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/bootstrap/css/bootstrap.min.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/bootstrap/js/bootstrap.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/bootstrap/js/npm.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/bower.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/alerts.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/background-variant.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/border-radius.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/buttons.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/center-block.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/clearfix.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/forms.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/gradients.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/grid-framework.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/grid.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/hide-text.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/image.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/labels.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/list-group.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/nav-divider.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/nav-vertical-align.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/opacity.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/pagination.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/panels.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/progress-bar.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/reset-filter.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/reset-text.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/resize.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/responsive-visibility.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/size.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/tab-focus.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/table-row.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/text-emphasis.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/text-overflow.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/vendor-prefixes.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/variables.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/.csslintrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/404_500_errors.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/AdminLTE-without-plugins.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/AdminLTE.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/alerts.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/bootstrap-social.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/boxes.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/buttons.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/callout.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/carousel.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/control-sidebar.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/core.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/direct-chat.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/dropdown.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/forms.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/fullcalendar.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/header.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/info-box.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/invoice.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/labels.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/lockscreen.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/login_and_register.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/mailbox.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/miscellaneous.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/mixins.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/modal.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/navs.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/plugins.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/print.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/products.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/profile.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/progress-bars.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/select2.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/sidebar-mini.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/sidebar.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/_all-skins.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/skin-black-light.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/skin-black.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/skin-blue-light.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/skin-blue.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/skin-green-light.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/skin-green.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/skin-purple-light.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/skin-purple.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/skin-red-light.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/skin-red.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/skin-yellow-light.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/skin-yellow.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/small-box.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/social-widgets.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/table.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/timeline.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/users-list.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/variables.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/changelog.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/composer.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/AdminLTE.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/AdminLTE.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/alt/AdminLTE-bootstrap-social.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/alt/AdminLTE-bootstrap-social.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/alt/AdminLTE-fullcalendar.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/alt/AdminLTE-fullcalendar.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/alt/AdminLTE-select2.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/alt/AdminLTE-select2.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/alt/AdminLTE-without-plugins.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/alt/AdminLTE-without-plugins.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/rtl.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/_all-skins.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/_all-skins.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-black-light.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-black-light.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-black.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-black.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-blue-light.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-blue-light.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-blue.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-blue.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-green-light.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-green-light.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-green.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-green.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-purple-light.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-purple-light.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-purple.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-purple.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-red-light.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-red-light.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-red.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-red.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-yellow-light.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-yellow-light.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-yellow.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/skins/skin-yellow.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/avatar.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/avatar04.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/avatar2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/avatar3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/avatar5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/boxed-bg.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/boxed-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/credit/american-express.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/credit/cirrus.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/credit/mastercard.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/credit/mestro.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/credit/paypal.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/credit/paypal2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/credit/visa.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/default-50x50.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/icons.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/photo1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/photo2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/photo3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/photo4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/user1-128x128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/user2-160x160.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/user3-128x128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/user4-128x128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/user5-128x128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/user6-128x128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/user7-128x128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/user8-128x128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/js/app.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/js/app.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/js/demo.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/js/pages/dashboard.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/js/pages/dashboard2.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/adminlte-options.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/advice.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/browsers.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/components.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/dependencies.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/download.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/faq.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/implementations.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/introduction.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/layout.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/license.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/plugins.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/upgrade.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/docs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/index2.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/UI/buttons.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/UI/general.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/UI/icons.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/UI/modals.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/UI/sliders.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/UI/timeline.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/calendar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/charts/chartjs.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/charts/flot.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/charts/inline.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/charts/morris.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/examples/404.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/examples/500.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/examples/blank.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/examples/invoice-print.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/examples/invoice.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/examples/lockscreen.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/examples/login.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/examples/pace.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/examples/profile.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/examples/register.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/forms/advanced.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/forms/editors.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/forms/general.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/layout/boxed.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/layout/collapsed-sidebar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/layout/fixed.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/layout/top-nav.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/mailbox/compose.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/mailbox/mailbox.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/mailbox/read-mail.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/tables/data.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/tables/simple.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/widgets.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/bootstrap-slider/bootstrap-slider.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/bootstrap-slider/slider.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/chartjs/Chart.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/chartjs/Chart.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/CHANGES.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/LICENSE.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/adapters/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/build-config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/ckeditor.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/contents.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/af.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/ar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/bg.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/bn.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/bs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/ca.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/cs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/cy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/da.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/de-ch.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/de.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/el.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/en-au.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/en-ca.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/en-gb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/en.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/eo.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/es.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/et.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/eu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/fa.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/fi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/fo.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/fr-ca.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/fr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/gl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/gu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/he.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/hi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/hr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/hu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/id.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/is.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/it.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/ja.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/ka.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/km.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/ko.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/ku.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/lt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/lv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/mk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/mn.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/ms.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/nb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/nl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/no.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/pl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/pt-br.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/pt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/ro.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/ru.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/si.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/sk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/sl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/sq.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/sr-latn.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/sr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/sv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/th.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/tr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/tt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/ug.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/uk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/vi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/zh-cn.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/lang/zh.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/about/dialogs/about.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/clipboard/dialogs/paste.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/dialog/dialogDefinition.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/icons.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/icons_hidpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/image/dialogs/image.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/image/images/noimage.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/link/dialogs/anchor.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/link/dialogs/link.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/link/images/anchor.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/link/images/hidpi/anchor.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/magicline/images/hidpi/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/magicline/images/icon-rtl.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/magicline/images/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/pastefromword/filter/default.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/scayt/CHANGELOG.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/scayt/LICENSE.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/scayt/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/scayt/dialogs/options.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/af.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/da.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/eu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/id.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/km.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/ko.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/lt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/tt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/uk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/vi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/table/dialogs/table.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/wsc/LICENSE.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/wsc/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/css/samples.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/img/github-top.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/img/header-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/img/header-separator.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/img/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/img/navigation-tip.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/js/sample.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/js/sf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/ajax.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/api.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/appendto.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/assets/inlineall/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/assets/posteddata.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/assets/sample.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/assets/uilanguages/languages.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/datafiltering.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/dialog/assets/my_dialog.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/dialog/dialog.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/divreplace.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/enterkey/enterkey.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/htmlwriter/outputforflash.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/htmlwriter/outputhtml.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/inlineall.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/inlinebycode.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/inlinetextarea.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/jquery.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/magicline/magicline.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/readonly.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/replacebyclass.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/replacebycode.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/sample.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/sample.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/sample_posteddata.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/tabindex.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/toolbar/toolbar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/uicolor.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/uilanguages.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/wysiwygarea/fullpage.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/old/xhtmlstyle.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/toolbarconfigurator/css/fontello.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/toolbarconfigurator/font/config.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/toolbarconfigurator/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/skins/moono/dialog.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/skins/moono/dialog_ie.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/skins/moono/dialog_ie7.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/skins/moono/dialog_ie8.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/skins/moono/dialog_iequirks.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/skins/moono/editor.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/skins/moono/editor_gecko.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/skins/moono/editor_ie.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/skins/moono/editor_ie7.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/skins/moono/editor_ie8.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/skins/moono/editor_iequirks.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/skins/moono/icons.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/skins/moono/icons_hidpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/skins/moono/images/arrow.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/skins/moono/images/close.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/skins/moono/images/hidpi/close.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/skins/moono/images/hidpi/lock-open.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/skins/moono/images/hidpi/lock.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/skins/moono/images/hidpi/refresh.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/skins/moono/images/lock-open.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/skins/moono/images/lock.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/skins/moono/images/refresh.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/skins/moono/images/spinner.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/skins/moono/readme.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ckeditor/styles.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/colorpicker/bootstrap-colorpicker.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/colorpicker/bootstrap-colorpicker.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/colorpicker/bootstrap-colorpicker.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/colorpicker/bootstrap-colorpicker.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/colorpicker/img/alpha-horizontal.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/colorpicker/img/alpha.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/colorpicker/img/hue-horizontal.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/colorpicker/img/hue.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/colorpicker/img/saturation.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/dataTables.bootstrap.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/dataTables.bootstrap.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/dataTables.bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/AutoFill/Readme.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/AutoFill/examples/columns.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/AutoFill/examples/complete-callback.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/AutoFill/examples/fill-both.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/AutoFill/examples/fill-horizontal.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/AutoFill/examples/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/AutoFill/examples/scrolling.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/AutoFill/examples/simple.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/AutoFill/examples/step-callback.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/AutoFill/images/filler.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColReorder/License.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColReorder/Readme.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColReorder/examples/alt_insert.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColReorder/examples/col_filter.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColReorder/examples/colvis.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColReorder/examples/fixedcolumns.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColReorder/examples/fixedheader.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColReorder/examples/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColReorder/examples/jqueryui.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColReorder/examples/new_init.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColReorder/examples/predefined.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColReorder/examples/realtime.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColReorder/examples/reset.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColReorder/examples/scrolling.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColReorder/examples/server_side.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColReorder/examples/simple.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColReorder/examples/state_save.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColReorder/images/insert.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColVis/License.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColVis/Readme.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColVis/css/dataTables.colVis.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColVis/css/dataTables.colVis.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColVis/css/dataTables.colvis.jqueryui.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColVis/examples/button_order.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColVis/examples/exclude_columns.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColVis/examples/group_columns.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColVis/examples/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColVis/examples/jqueryui.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColVis/examples/mouseover.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColVis/examples/new_init.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColVis/examples/restore.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColVis/examples/simple.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColVis/examples/text.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColVis/examples/title_callback.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColVis/examples/two_tables.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColVis/examples/two_tables_identical.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColVis/js/dataTables.colVis.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/ColVis/js/dataTables.colVis.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedColumns/License.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedColumns/Readme.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedColumns/examples/bootstrap.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedColumns/examples/col_filter.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedColumns/examples/colvis.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedColumns/examples/css_size.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedColumns/examples/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedColumns/examples/index_column.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedColumns/examples/left_right_columns.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedColumns/examples/right_column.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedColumns/examples/rowspan.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedColumns/examples/server-side-processing.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedColumns/examples/simple.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedColumns/examples/size_fixed.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedColumns/examples/size_fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedColumns/examples/two_columns.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedHeader/Readme.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedHeader/examples/header_footer.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedHeader/examples/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedHeader/examples/simple.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedHeader/examples/top_left_right.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedHeader/examples/two_tables.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedHeader/examples/zIndexes.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/KeyTable/Readme.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/KeyTable/examples/events.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/KeyTable/examples/html.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/KeyTable/examples/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/KeyTable/examples/scrolling.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/KeyTable/examples/simple.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/License.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/Readme.md" afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/crud/poll/create.blade.php" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/css/dataTables.responsive.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/css/dataTables.responsive.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/examples/child-rows/column-control.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/examples/child-rows/custom-renderer.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/examples/child-rows/disable-child-rows.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/examples/child-rows/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/examples/child-rows/right-column.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/examples/child-rows/whole-row-control.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/examples/display-control/auto.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/examples/display-control/classes.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/examples/display-control/complexHeader.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/examples/display-control/fixedHeader.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/examples/display-control/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/examples/display-control/init-classes.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/examples/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/examples/initialisation/ajax.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/examples/initialisation/className.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/examples/initialisation/default.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/examples/initialisation/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/examples/initialisation/new.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/examples/initialisation/option.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/examples/styling/bootstrap.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/examples/styling/compact.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/examples/styling/foundation.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/examples/styling/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/examples/styling/scrolling.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/js/dataTables.responsive.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Scroller/Readme.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Scroller/css/dataTables.scroller.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Scroller/examples/api_scrolling.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Scroller/examples/data/2500.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Scroller/examples/data/ssp.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Scroller/examples/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Scroller/examples/large_js_source.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Scroller/examples/server-side_processing.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Scroller/examples/simple.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Scroller/examples/state_saving.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Scroller/images/loading-background.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Scroller/js/dataTables.scroller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/Scroller/js/dataTables.scroller.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/Readme.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/examples/ajax.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/examples/alter_buttons.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/examples/bootstrap.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/examples/button_text.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/examples/collection.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/examples/defaults.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/examples/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/examples/jqueryui.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/examples/multi_instance.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/examples/multiple_tables.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/examples/new_init.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/examples/pdf_message.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/examples/plug-in.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/examples/select_column.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/examples/select_multi.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/examples/select_os.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/examples/select_single.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/examples/simple.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/examples/swf_path.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/images/collection.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/images/collection_hover.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/images/copy.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/images/copy_hover.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/images/csv.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/images/csv_hover.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/images/pdf.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/images/pdf_hover.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/images/print.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/images/print_hover.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/images/psd/collection.psd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/images/psd/copy document.psd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/images/psd/file_types.psd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/images/psd/printer.psd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/images/xls.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/images/xls_hover.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/swf/copy_csv_xls.swf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/extensions/TableTools/swf/copy_csv_xls_pdf.swf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/images/sort_asc.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/images/sort_asc_disabled.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/images/sort_both.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/images/sort_desc.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/images/sort_desc_disabled.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/jquery.dataTables.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/jquery.dataTables.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/jquery.dataTables.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/jquery.dataTables.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatables/jquery.dataTables_themeroller.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/bootstrap-datepicker.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/datepicker3.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.ar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.az.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.bg.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.ca.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.cs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.cy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.da.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.de.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.el.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.es.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.et.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.fa.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.fi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.fr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.gl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.he.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.hr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.hu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.id.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.is.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.it.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.ja.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.ka.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.kk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.kr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.lt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.lv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.mk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.ms.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.nb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.nl-BE.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.nl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.no.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.pl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.pt-BR.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.pt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.ro.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.rs-latin.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.rs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.ru.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.sk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.sl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.sq.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.sv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.sw.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.th.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.tr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.ua.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.vi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/datepicker/locales/bootstrap-datepicker.zh-TW.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/daterangepicker/daterangepicker.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/daterangepicker/daterangepicker.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/daterangepicker/moment.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/daterangepicker/moment.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/fastclick/fastclick.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/fastclick/fastclick.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/excanvas.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/excanvas.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.colorhelpers.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.colorhelpers.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.canvas.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.canvas.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.categories.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.categories.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.crosshair.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.crosshair.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.errorbars.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.errorbars.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.fillbetween.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.fillbetween.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.image.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.image.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.navigate.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.navigate.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.pie.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.pie.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.resize.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.resize.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.selection.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.selection.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.stack.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.stack.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.symbol.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.symbol.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.threshold.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.threshold.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.time.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/flot/jquery.flot.time.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/fullcalendar/fullcalendar.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/fullcalendar/fullcalendar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/fullcalendar/fullcalendar.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/fullcalendar/fullcalendar.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/fullcalendar/fullcalendar.print.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/all.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/_all.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/aero.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/aero.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/aero@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/blue.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/blue.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/blue@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/flat.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/flat.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/flat@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/green.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/green.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/green@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/grey.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/grey.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/grey@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/orange.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/orange.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/orange@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/pink.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/pink.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/pink@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/purple.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/purple.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/purple@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/red.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/red.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/red@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/yellow.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/yellow.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/flat/yellow@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/futurico/futurico.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/futurico/futurico.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/futurico/futurico@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/icheck.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/icheck.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/line/_all.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/line/aero.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/line/blue.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/line/green.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/line/grey.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/line/line.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/line/line.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/line/line@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/line/orange.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/line/pink.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/line/purple.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/line/red.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/line/yellow.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/_all.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/aero.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/aero.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/aero@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/blue.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/blue.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/blue@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/green.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/green.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/green@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/grey.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/grey.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/grey@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/minimal.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/minimal.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/minimal@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/orange.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/orange.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/orange@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/pink.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/pink.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/pink@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/purple.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/purple.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/purple@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/red.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/red.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/red@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/yellow.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/yellow.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/minimal/yellow@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/polaris/polaris.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/polaris/polaris.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/polaris/polaris@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/_all.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/aero.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/aero.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/aero@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/blue.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/blue.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/blue@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/green.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/green.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/green@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/grey.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/grey.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/grey@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/orange.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/orange.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/orange@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/pink.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/pink.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/pink@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/purple.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/purple.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/purple@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/red.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/red.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/red@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/square.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/square.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/square@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/yellow.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/yellow.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/iCheck/square/yellow@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/input-mask/jquery.inputmask.date.extensions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/input-mask/jquery.inputmask.extensions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/input-mask/jquery.inputmask.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/input-mask/jquery.inputmask.numeric.extensions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/input-mask/jquery.inputmask.phone.extensions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/input-mask/jquery.inputmask.regex.extensions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/input-mask/phone-codes/phone-be.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/input-mask/phone-codes/phone-codes.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/input-mask/phone-codes/readme.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ionslider/img/sprite-skin-flat.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ionslider/img/sprite-skin-nice.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ionslider/ion.rangeSlider.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ionslider/ion.rangeSlider.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ionslider/ion.rangeSlider.skinFlat.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/ionslider/ion.rangeSlider.skinNice.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/jQuery/jquery-2.2.3.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/jQueryUI/jquery-ui.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/jQueryUI/jquery-ui.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/jvectormap/jquery-jvectormap-1.2.2.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/jvectormap/jquery-jvectormap-usa-en.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/knob/jquery.knob.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/morris/morris.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/morris/morris.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/morris/morris.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/pace/pace.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/pace/pace.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/pace/pace.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/pace/pace.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/ar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/az.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/bg.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/ca.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/cs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/da.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/de.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/el.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/en.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/es.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/et.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/eu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/fa.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/fi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/fr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/gl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/he.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/hi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/hr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/hu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/id.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/is.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/it.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/ja.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/km.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/ko.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/lt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/lv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/mk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/ms.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/nb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/nl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/pl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/pt-BR.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/pt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/ro.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/ru.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/sk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/sr-Cyrl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/sr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/sv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/th.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/tr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/uk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/vi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/zh-CN.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/i18n/zh-TW.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/select2.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/select2.full.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/select2.full.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/select2.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/select2.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/select2/select2.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/slimScroll/jquery.slimscroll.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/slimScroll/jquery.slimscroll.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/sparkline/jquery.sparkline.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/sparkline/jquery.sparkline.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/timepicker/bootstrap-timepicker.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/timepicker/bootstrap-timepicker.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/timepicker/bootstrap-timepicker.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/plugins/timepicker/bootstrap-timepicker.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/starter.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/yarn.lock" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/fa/crud.php" afterPath="$PROJECT_DIR$/resources/lang/fa/crud.php" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/backpack/fa/crud.php" afterPath="$PROJECT_DIR$/resources/lang/vendor/backpack/fa/crud.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar.blade.php" afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/backpack/base/layout.blade.php" afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/base/layout.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/backpack/crud/addgroup.blade.php" afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/crud/addgroup.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/backpack/crud/poll.blade.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/documentation/build/index.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/documentation/build/index.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/documentation/index.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/documentation/index.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/index.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/index.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/index2.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/index2.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/UI/buttons.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/UI/buttons.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/UI/general.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/UI/general.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/UI/icons.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/UI/icons.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/UI/modals.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/UI/modals.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/UI/sliders.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/UI/sliders.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/UI/timeline.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/UI/timeline.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/calendar.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/calendar.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/charts/chartjs.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/charts/chartjs.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/charts/flot.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/charts/flot.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/charts/inline.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/charts/inline.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/charts/morris.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/charts/morris.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/examples/404.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/examples/404.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/examples/500.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/examples/500.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/examples/blank.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/examples/blank.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/examples/invoice.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/examples/invoice.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/examples/lockscreen.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/examples/lockscreen.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/examples/login.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/examples/login.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/examples/pace.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/examples/pace.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/examples/profile.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/examples/profile.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/examples/register.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/examples/register.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/forms/advanced.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/forms/advanced.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/forms/editors.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/forms/editors.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/forms/general.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/forms/general.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/layout/boxed.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/layout/boxed.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/layout/collapsed-sidebar.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/layout/collapsed-sidebar.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/layout/fixed.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/layout/fixed.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/layout/top-nav.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/layout/top-nav.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/mailbox/compose.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/mailbox/compose.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/mailbox/mailbox.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/mailbox/mailbox.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/mailbox/read-mail.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/mailbox/read-mail.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/tables/data.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/tables/data.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/tables/simple.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/tables/simple.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/widgets.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/pages/widgets.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/starter.html" afterPath="$PROJECT_DIR$/vendor/almasaeed2010/adminlte/starter.html" />
-      <change beforePath="$PROJECT_DIR$/vendor/backpack/base/src/app/Console/Commands/Install.php" afterPath="$PROJECT_DIR$/vendor/backpack/base/src/app/Console/Commands/Install.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/backpack/base/src/resources/lang/fa/base.php" afterPath="$PROJECT_DIR$/vendor/backpack/base/src/resources/lang/fa/base.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/backpack/base/src/resources/views/layout.blade.php" afterPath="$PROJECT_DIR$/vendor/backpack/base/src/resources/views/layout.blade.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Console/Factories/stubs/factory.stub" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Console/Factories/stubs/factory.stub" />
-      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Collection.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Collection.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/nikic/php-parser/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/nikic/php-parser/CHANGELOG.md" />
-      <change beforePath="$PROJECT_DIR$/vendor/nikic/php-parser/LICENSE" afterPath="$PROJECT_DIR$/vendor/nikic/php-parser/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php" afterPath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/nikic/php-parser/test/code/prettyPrinter/expr/parentheses.test" afterPath="$PROJECT_DIR$/vendor/nikic/php-parser/test/code/prettyPrinter/expr/parentheses.test" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Serializer.php" afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Serializer.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/ramsey/uuid/CHANGELOG.md" />
-      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/composer.json" afterPath="$PROJECT_DIR$/vendor/ramsey/uuid/composer.json" />
-      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Generator/DefaultTimeGenerator.php" afterPath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Generator/DefaultTimeGenerator.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Provider/Node/SystemNodeProvider.php" afterPath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Provider/Node/SystemNodeProvider.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/thanks/composer.json" afterPath="$PROJECT_DIR$/vendor/symfony/thanks/composer.json" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/thanks/src/Thanks.php" afterPath="$PROJECT_DIR$/vendor/symfony/thanks/src/Thanks.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -1286,18 +20,38 @@
       <file leaf-file-name="GroupCrudController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/GroupCrudController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
+            <state relative-caret-position="0">
               <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="41" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategorieCrudController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CategorieCrudController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/CategorieCrudController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
+            <state relative-caret-position="29">
               <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="11" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -1359,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Models/Group.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_01_25_085730_create_polls_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_01_25_091514_create_polls_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_01_20_093901_create_employee_group_pivot_table.php" />
@@ -1402,7 +155,6 @@
         <option value="$PROJECT_DIR$/resources/views/vendor/backpack/crud/buttons/addanswer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/vendor/backpack/crud/poll/addanswer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar.blade.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/config/filesystems.php" />
         <option value="$PROJECT_DIR$/app/Models/Message.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/MessageCrudController.php" />
@@ -1410,6 +162,8 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/EmployeeCrudController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/GroupCrudController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/CategorieCrudController.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.env" />
       </list>
     </option>
   </component>
@@ -1526,10 +280,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
+    <option name="x" value="993" />
     <option name="y" value="25" />
-    <option name="width" value="799" />
-    <option name="height" value="575" />
+    <option name="width" value="927" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -1562,35 +316,14 @@
               <item name="exiradmin" type="b2602c69:ProjectViewProjectNode" />
               <item name="exiradmin" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="exiradmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exiradmin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="exiradmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exiradmin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="exiradmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exiradmin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Models" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1680,23 +413,24 @@
       <workItem from="1519472502158" duration="1477000" />
       <workItem from="1519534025247" duration="9471000" />
       <workItem from="1519623431246" duration="13528000" />
+      <workItem from="1519646253854" duration="327000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256271000" />
+    <option name="totallyTimeSpent" value="256598000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18649696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18871057" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1724,13 +458,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/vendor/backpack/crud/poll/addanswer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/vendor/backpack/crud/poll/poll.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3277">
@@ -1749,20 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1566">
           <caret line="54" column="18" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-          <folding>
-            <marker date="1519625872764" expanded="true" signature="5:31" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="42:77" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="135:188" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="268:304" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="413:466" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="534:570" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="968:1004" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="1039:1093" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="1130:1183" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="1195:1201" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="1207:1216" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="5884:5927" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1805,20 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1566">
           <caret line="54" column="18" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-          <folding>
-            <marker date="1519625872764" expanded="true" signature="5:31" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="42:77" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="135:188" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="268:304" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="413:466" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="534:570" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="968:1004" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="1039:1093" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="1130:1183" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="1195:1201" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="1207:1216" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="5884:5927" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1833,20 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1566">
           <caret line="54" column="18" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-          <folding>
-            <marker date="1519625872764" expanded="true" signature="5:31" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="42:77" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="135:188" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="268:304" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="413:466" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="534:570" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="968:1004" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="1039:1093" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="1130:1183" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="1195:1201" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="1207:1216" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="5884:5927" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1969,9 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#33#56#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1979,7 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1987,7 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1995,12 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="17" column="139" lean-forward="false" selection-start-line="17" selection-start-column="139" selection-end-line="17" selection-end-column="139" />
-          <folding>
-            <marker date="1519626298596" expanded="true" signature="255:277" ph="..." />
-            <marker date="1519626298596" expanded="true" signature="359:375" ph="..." />
-            <marker date="1519626298596" expanded="true" signature="694:707" ph="..." />
-            <marker date="1519626298596" expanded="true" signature="720:737" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2008,17 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1517211641145" expanded="true" signature="92:118" ph="..." />
-            <marker date="1517211641145" expanded="true" signature="136:241" ph="..." />
-            <marker date="1517211641145" expanded="true" signature="373:408" ph="..." />
-            <marker date="1517211641145" expanded="true" signature="413:433" ph="..." />
-            <marker date="1517211641145" expanded="true" signature="647:698" ph="..." />
-            <marker date="1517211641145" expanded="true" signature="733:834" ph="..." />
-            <marker date="1517211641145" expanded="true" signature="895:981" ph="..." />
-            <marker date="1517211641145" expanded="true" signature="1123:1152" ph="..." />
-            <marker date="1517211641145" expanded="true" signature="1247:1262" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2026,7 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1738">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2034,97 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4541">
           <caret line="405" column="0" lean-forward="true" selection-start-line="405" selection-start-column="0" selection-end-line="405" selection-end-column="0" />
-          <folding>
-            <marker date="1517315132707" expanded="true" signature="9:27" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="38:46" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="142:169" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="200:229" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="263:290" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="302:343" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="428:484" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="490:521" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="560:579" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="609:636" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="681:711" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="770:779" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="970:1015" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="1050:1094" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="1559:1582" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="1617:1643" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="1858:1876" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="2108:2133" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="2173:2267" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="2309:2327" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="2442:2491" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="2554:2587" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="2852:2870" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="3079:3104" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="3144:3162" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="3244:3293" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="3333:3366" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="3570:3617" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="3705:3719" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="3764:3834" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="3909:3953" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="3993:4037" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="4077:4121" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="4161:4201" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="4274:4292" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="4316:4331" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="4384:4450" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="4507:4549" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="4582:4624" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="4657:4699" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="4732:4776" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="4809:4859" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="4883:4905" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="5996:6065" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="6211:6233" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="7079:7110" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="7193:7222" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="7392:7428" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="7478:7508" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="7558:7593" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="7643:7681" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="7731:7768" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="7818:7853" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="7903:7939" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="7989:8029" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="8089:8140" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="8151:8187" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="8239:8271" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="8321:8358" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="8446:8486" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="8536:8575" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="8625:8664" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="8714:8757" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="8871:8915" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="8969:9014" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="9123:9160" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="9206:9244" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="9290:9326" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="9372:9408" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="9454:9492" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="9538:9588" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="9787:9846" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="9944:9966" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="10828:10870" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="10904:10945" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="11003:11025" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="12067:12085" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="12659:12699" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="13050:13101" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="13151:13204" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="13688:13743" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="13793:13850" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="14106:14169" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="14211:14276" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="14425:14443" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="16166:16185" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="17195:17246" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="18631:18674" ph="..." />
-            <marker date="1517315132707" expanded="true" signature="19377:19396" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2132,20 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3451">
           <caret line="119" column="28" lean-forward="false" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
-          <folding>
-            <marker date="1519625872764" expanded="true" signature="5:31" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="42:77" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="135:188" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="268:304" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="413:466" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="534:570" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="968:1004" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="1039:1093" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="1130:1183" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="1195:1201" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="1207:1216" ph="..." />
-            <marker date="1519625872764" expanded="true" signature="5884:5927" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2153,29 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <marker date="1519626519621" expanded="true" signature="5:18" ph="..." />
-            <marker date="1519626519621" expanded="true" signature="249:283" ph="..." />
-            <marker date="1519626519621" expanded="true" signature="706:733" ph="..." />
-            <marker date="1519626519621" expanded="true" signature="777:812" ph="..." />
-            <marker date="1519626519621" expanded="true" signature="857:883" ph="..." />
-            <marker date="1519626519621" expanded="true" signature="923:957" ph="..." />
-            <marker date="1519626519621" expanded="true" signature="1010:1038" ph="..." />
-            <marker date="1519626519621" expanded="true" signature="1078:1114" ph="..." />
-            <marker date="1519626519621" expanded="true" signature="1166:1189" ph="..." />
-            <marker date="1519626519621" expanded="true" signature="1238:1269" ph="..." />
-            <marker date="1519626519621" expanded="true" signature="1317:1344" ph="..." />
-            <marker date="1519626519621" expanded="true" signature="1395:1430" ph="..." />
-            <marker date="1519626519621" expanded="true" signature="1478:1500" ph="..." />
-            <marker date="1519626519621" expanded="true" signature="1542:1572" ph="..." />
-            <marker date="1519626519621" expanded="true" signature="1620:1645" ph="..." />
-            <marker date="1519626519621" expanded="true" signature="1686:1719" ph="..." />
-            <marker date="1519626519621" expanded="true" signature="1769:1796" ph="..." />
-            <marker date="1519626519621" expanded="true" signature="1838:1876" ph="..." />
-            <marker date="1519626519621" expanded="true" signature="1929:1956" ph="..." />
-            <marker date="1519626519621" expanded="true" signature="1997:2031" ph="..." />
-            <marker date="1519626519621" expanded="true" signature="2087:2120" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2183,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="182" column="65" lean-forward="false" selection-start-line="182" selection-start-column="65" selection-end-line="182" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2191,15 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2207,7 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
           <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2215,7 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1624">
           <caret line="74" column="32" lean-forward="false" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2231,7 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="899">
           <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2239,7 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-462">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2247,13 +767,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="727">
           <caret line="90" column="20" lean-forward="false" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/GroupCrudController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
+        <state relative-caret-position="0">
           <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="41" selection-end-column="11" />
           <folding />
         </state>
@@ -2261,8 +780,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/CategorieCrudController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
+        <state relative-caret-position="29">
           <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="11" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
