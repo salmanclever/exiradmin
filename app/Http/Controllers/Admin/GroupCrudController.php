@@ -36,6 +36,11 @@ class GroupCrudController extends CrudController
         // ------ CRUD FIELDS
         // $this->crud->addField($options, 'update/create/both');
 
+        $this->crud->addField([
+            'name' => 'name',
+            'label' => 'نام گروه'
+        ]);
+
         $this->crud->addColumn([
                 'name' => 'name', // The db column name
                 'label' => "نام", // Table column heading

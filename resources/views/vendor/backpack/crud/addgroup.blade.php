@@ -1,7 +1,6 @@
 @extends('backpack::layout')
-
-
 @section('header')
+    {{ $categorie_group->toJson() }}
     <section class="content-header">
         <h1>
             <span class="text-capitalize">{{ $crud->entity_name_plural }}</span>
@@ -56,7 +55,7 @@
                         </tr>
                         </thead>
                         <tbody>
-                         </tbody>
+                        </tbody>
                         <tfoot>
                         <tr>
                             @if ($crud->details_row)
@@ -85,21 +84,6 @@
     </div>
 
 @endsection
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @section('after_styles')
     <!-- DATA TABLES -->
@@ -164,29 +148,41 @@
                     /* Disable initial sort */
                     "aaSorting": [],
 
+
+
                     "columnDefs": [
                         {
+
                             // The `data` parameter refers to the data for the cell (defined by the
                             // `data` option, which defaults to the column being worked with, in
                             // this case `data: 0`.
                             "render": function ( data, type, row ,meta) {
-                                var grparr = {{ $categorie_group->toJson() }};
-                                var grpid = $(data).find("input").attr("empid");
+                                var emparr = {{ $categorie_group->toJson() }};
+                                var empid = $(data).find("input").attr("empid");
                                 var selectedrow = meta.row+1;
                                 var tr = $("#crudTable tbody tr:nth-child("+selectedrow+")");
-                                if((($.inArray(parseInt(grpid),grparr))>-1)){
+                                if((($.inArray(parseInt(empid),emparr))>-1)){
                                     tr.addClass('success');
                                 }
-                                var checked = (($.inArray(parseInt(grpid),grparr))>-1) ? "checked" : "";
-                                console.log(checked);
 
-                                return '<input class="empcheckbox" name="checkmark" id="checking" empid="'+grpid+'" '+ checked +' type="checkbox">';
+
+
+
+                                var checked = (($.inArray(parseInt(empid),emparr))>-1) ? "checked" : "";
+
+
+
+                                return '<input class="empcheckbox" name="checkmark" id="checking" empid="'+empid+'" '+ checked +' type="checkbox">';
                                 //checkboxproccess(empid,input);
                             },
                             "targets": 0
                         },
                         { "visible": false,  "targets": [ 3 ] }
                     ],
+
+
+
+
 
                     "language": {
                         "emptyTable":     "{{ trans('backpack::crud.emptyTable') }}",
@@ -245,13 +241,13 @@
 
             // override ajax error message
             $.fn.dataTable.ext.errMode = 'none';
-            $('#crudTable').on('error.dt', function(e, settings, techNote, message) {
-                new PNotify({
-                    type: "error",
-                    title: "{{ trans('backpack::crud.ajax_error_title') }}",
-                    text: "{{ trans('backpack::crud.ajax_error_text') }}"
-                });
-            });
+            {{--$('#crudTable').on('error.dt', function(e, settings, techNote, message) {--}}
+                {{--new PNotify({--}}
+                    {{--type: "error",--}}
+                    {{--title: "{{ trans('backpack::crud.ajax_error_title') }}",--}}
+                    {{--text: "{{ trans('backpack::crud.ajax_error_text') }}"--}}
+                {{--});--}}
+            {{--});--}}
 
             @if ($crud->exportButtons())
             // move the datatable buttons in the top-right corner and make them smaller
@@ -324,8 +320,7 @@
                         });
                     }
                 });
-
-                           }
+            }
 
 
             @if ($crud->details_row)
@@ -378,12 +373,11 @@
                                 $('div.table_row_slider', row.child()).slideDown();
                             })
                             .always(function(data) {
-                          tbody > td > .row      // console.log("-- complete getting table extra details row with AJAX");
+                                // console.log("-- complete getting table extra details row with AJAX");
                             });
                     }
                 } );
-
-                            }
+            }
 
             register_details_row_button_action();
             @endif
@@ -391,79 +385,96 @@
 
 
 
-        });
 
 
 
 
 
-        $('#crudTable tbody').on('click', 'tr', function (e) {
-
-            var tr = this;
-            var jtr = $(this).find('.empcheckbox');
 
 
-            var grpid = $(this).children().children().attr('empid');
-            var catid = {{ $cat_id }}
 
-            $.ajax({
-                type:"POST",
-                url:"",
-                success: function(data) {
-                    if(data.saving == 'success'){
-                        console.log('success');
-                        if(data.actions == 'attach'){
-                            jtr.prop('checked',true);
-                            $(tr).addClass('success');
 
-                            new PNotify({
-                                title: "{{ trans('backpack::crud.operator_success') }}",
-                                text: "{{ trans('backpack::crud.operator_attach_success') }}",
-                                type: "success"
-                            });
 
-                        }else if(data.actions == 'detach'){
-                            jtr.prop('checked',false);
-                            $(tr).removeClass('success');
+            $('#crudTable tbody').on('click', 'tr', function (e) {
 
-                            new PNotify({
-                                title: "{{ trans('backpack::crud.operator_success') }}",
-                                text: "{{ trans('backpack::crud.operator_detach_success') }}",
-                                type: "success"
-                            });
-                        }
+                var tr = this;
+                var jtr = $(this).find('.empcheckbox');
+
+
+                var grpid = $(this).children().children().attr('empid');
+                var catid = {{ $cat_id }}
+                $.ajax({
+                    type:"POST",
+                    url:"",
+                    success: function(data) {
+
+                        if(data.saving == 'success'){
+                            console.log('success');
+                            if(data.actions == 'attach'){
+
+                                jtr.prop('checked',true);
+                                $(tr).addClass('success');
+
+                                new PNotify({
+                                    title: "{{ trans('backpack::crud.operator_success') }}",
+                                    text: "{{ trans('backpack::crud.operator_group_attach_success') }}",
+                                    type: "success"
+                                });
+
+                            }else if(data.actions == 'detach'){
+
+                                jtr.prop('checked',false);
+                                $(tr).removeClass('success');
+
+                                new PNotify({
+                                    title: "{{ trans('backpack::crud.operator_success') }}",
+                                    text: "{{ trans('backpack::crud.operator_group_detach_success') }}",
+                                    type: "success"
+                                });
+                            }
 
                         }else{
-                        console.log('failesss');
+                            console.log('faile');
 
-                     }
-                },
-                error:function (jqXHR, textStatus, errorThrown) {
+                        }
+                    },
+                    error:function (jqXHR, textStatus, errorThrown) {
 
-                    new PNotify({
-                        title: "{{ trans('backpack::crud.operator_fail') }}",
-                        text: "{{ trans('backpack::crud.operator_send_fail') }}",
-                        type: "error"
-                    });
+                        new PNotify({
+                            title: "{{ trans('backpack::crud.operator_fail') }}",
+                            text: "{{ trans('backpack::crud.operator_send_fail') }}",
+                            type: "error"
+                        });
 
-                  console.log(textStatus);
-                },
-                data:{catid: catid , groupid: grpid },
+                        console.log(textStatus);
+                    },
+                    data:{catid: grpid , groupid: grpid },
+                });
+
+
+
+
             });
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         });
-
-
-
-
-
-
-
-
-
     </script>
 
     <!-- CRUD LIST CONTENT - crud_list_scripts stack -->

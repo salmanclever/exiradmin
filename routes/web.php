@@ -26,8 +26,19 @@ Route::group(['prefix' => 'admin', 'middleware' => ['admin'], 'namespace' => 'Ad
     });
     CRUD::resource('categorie', 'CategorieCrudController')->with(function (){
         Route::get('categorie/{id}/addgroup', 'GroupCrudController@addGroup');
-        Route::post('categorie/{id}/addgroup', 'GroupCrudController@addGroup');
+        Route::post('categorie/{id}/addgroup', 'CategorieCrudController@addGroup');
     });
 
     CRUD::resource('poll', 'PollCrudController');
+
+    CRUD::resource('poll', 'PollCrudController')->with(function (){
+        Route::get('poll/{id}/addanswer', 'PollCrudController@addAnswer');
+        Route::post('poll/{id}/addanswer', 'PollCrudController@storeAnswer');
+        Route::delete('poll/{id}/addanswer', 'PollCrudController@deleteAnswer');
+    });
+
+
+    CRUD::resource('message', 'MessageCrudController');
+
+
 });

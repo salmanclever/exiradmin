@@ -34,6 +34,7 @@ return [
     'dashboard'              => 'پنل کاربری ‍',
     'department'              => 'دپارتمان ها ‍',
     'poll'              => 'نظر سنجی ‍',
+    'message'           => 'پیام ها',
     'group'              => 'گروه ها ‍',
     'categorie'              => 'دسته بندی ها ‍',
     'employee'              => 'مدیریت نیروها ‍',

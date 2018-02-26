@@ -9,6 +9,7 @@ use Backpack\CRUD\app\Http\Controllers\CrudController;
 use App\Http\Requests\CategorieRequest as StoreRequest;
 use App\Http\Requests\CategorieRequest as UpdateRequest;
 use Illuminate\Support\Facades\Input;
+use App\Models\Group;
 
 class CategorieCrudController extends CrudController
 {
@@ -39,6 +40,11 @@ class CategorieCrudController extends CrudController
                 'label' => "نام", // Table column heading
             ]
         );
+
+        $this->crud->addField([
+            'name' => 'name', // The db column name
+            'label' => "نام دسته بندی", // Table column heading
+        ]);
 
         // $this->crud->addFields($array_of_arrays, 'update/create/both');
         // $this->crud->removeField('name', 'update/create/both');
@@ -130,28 +136,33 @@ class CategorieCrudController extends CrudController
     }
 
     public function addGroup(){
+        $res = [];
+
         $catid = Input::get('catid');
         $groupid = Input::get('groupid');
 
-
+        $gropobg = Group::findOrFail($groupid);
         $categorie = Categorie::findOrFail($catid);
-        $res = [];
 
-        if($categorie->groups()->where('categorie_id',$catid)->exists()){
-
-            $categorie->groups()->detach($groupid);
+        if($gropobg->categorie_id == $catid){
+            $gropobg->categories()->dissociate();
             $res['actions'] = 'detach';
-
+            if(!$gropobg->save()){
+                $res['saving'] = 'fail';
+            }else{
+                $res['saving'] = 'success';
+            }
         }else{
-            $categorie->groups()->associate($groupid);
+            $gropobg->categories()->associate($categorie);
             $res['actions'] = 'attach';
+            if($gropobg->save()){
+                if(!$gropobg->save()){
+                    $res['saving'] = 'fail';
+                }else{
+                    $res['saving'] = 'success';
+                }
+            }
         }
-
-        if(!$categorie->save()){
-            $res['saving'] = 'fail';
-        }else{
-            $res['saving'] = 'success';
-        };
 
         return $res;
     }

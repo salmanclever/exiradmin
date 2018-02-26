@@ -16,6 +16,7 @@ return [
     'previous' => '&laquo; Previous',
     'next' => 'Next &raquo;',
     'operator_fail' => 'عملیات نا موفق;',
+    'operator_success' => 'عملیات موفقیت آمیز',
 
 
 ];

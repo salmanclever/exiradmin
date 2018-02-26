@@ -34,6 +34,64 @@ class EmployeeCrudController extends CrudController
 
         // ------ CRUD FIELDS
         // $this->crud->addField($options, 'update/create/both');
+
+        $this->crud->addField([
+            'name' => 'employee_id', // The db column name
+            'label' => "شماره پرسنلی", // Table column heading
+
+        ]);
+
+        $this->crud->addField([
+            'name' => 'username', // The db column name
+            'label' => "نام کاربری", // Table column heading
+
+        ]);
+        $this->crud->addField([
+            'name' => 'username', // The db column name
+            'label' => "نام کاربری", // Table column heading
+
+        ]);
+$this->crud->addField([
+    'name' => 'email', // The db column name
+    'label' => "ایمیل", // Table column heading
+
+        ]);
+$this->crud->addField([
+    'name' => 'password', // The db column name
+    'label' => "کلمه عبور", // Table column heading
+
+        ]);
+$this->crud->addField([
+    'name' => 'personal_id', // The db column name
+    'label' => "کد ملی", // Table column heading
+
+        ]);
+$this->crud->addField([
+    'name' => 'first_name', // The db column name
+    'label' => "نام", // Table column heading
+
+        ]);
+$this->crud->addField([
+    'name' => 'last_name', // The db column name
+    'label' => " نام خانوادگی", // Table column heading
+
+        ]);
+$this->crud->addField([
+    'name' => 'job_title', // The db column name
+    'label' => " عنوان شغلی", // Table column heading
+
+        ]);
+$this->crud->addField([
+    'name' => 'department', // The db column name
+    'label' => "واحد", // Table column heading
+
+        ]);
+$this->crud->addField([
+    'name' => 'tel', // The db column name
+    'label' => "تلفن", // Table column heading
+
+        ]);
+
         // $this->crud->addField($options, 'update/create/both');
         // $this->crud->addFields($array_of_arrays, 'update/create/both');
         // $this->crud->removeField('name', 'update/create/both');

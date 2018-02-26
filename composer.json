@@ -9,6 +9,7 @@
         "backpack/base": "^0.8.6",
         "backpack/crud": "^3.3",
         "backpack/langfilemanager": "^1.0",
+        "components/jquery": "^3.2",
         "fideloper/proxy": "~3.3",
         "laravel/framework": "5.5.*",
         "laravel/tinker": "~1.0"

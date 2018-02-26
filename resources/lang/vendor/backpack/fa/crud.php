@@ -30,6 +30,12 @@ return [
     'add_employee'                 => 'افزودن ',
     'add_group'                 => 'افزودن ',
     'save'                 => 'ذخیره',
+    'operator_success' => 'عملیات موفقیت آمیز',
+    'operator_detach_success'           => 'کاربر از گروه حذف شد .',
+    'operator_attach_success'           => 'کاربر به گروه اضافه شد .',
+    'operator_group_detach_success'           => 'گروه از دسته بندی حذف شد .',
+    'operator_group_attach_success'           => 'گروه به دسته بندی اضافه شد .',
+
 
     // Revisions
     'revisions'            => 'اصلاحات',
@@ -69,6 +75,7 @@ return [
 
     'ajax_error_title' => 'خطا',
     'ajax_error_text'  => 'در لود صفحه خطایی رخ داده . مجدد سعی کنید',
+    'add_answer' => 'افزودن پاسخ',
 
     // DataTables translation
     'emptyTable'     => 'هیچ دیتایی در جدول وجود ندارد',
@@ -142,4 +149,5 @@ return [
 
     // File manager
     'file_manager' => 'مدیریت فایل',
+    'message' => 'پیغام ها',
 ];
