@@ -19,6 +19,6 @@
         "vue": "^2.5.7"
     },
     "dependencies": {
-        "izimodal": "^1.5.1"
+        "izimodal": "^1.6.0"
     }
 }
